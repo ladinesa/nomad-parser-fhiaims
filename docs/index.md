@@ -1,4 +1,4 @@
-# Welcome to the `fhiaimsparser` documentation
+# Welcome to the `nomad-parser-fhiaims` documentation
 
 Parser for FHI-Aims outputs
 

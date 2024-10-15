@@ -2,7 +2,7 @@ import logging
 
 from nomad.datamodel import EntryArchive
 
-from fhiaimsparser.parsers.parser import NewParser
+from nomad_parser_fhiaims.parsers.parser import NewParser
 
 
 def test_parse_file():

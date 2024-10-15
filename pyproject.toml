@@ -13,7 +13,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: Apache Software License",
 ]
-name = "fhiaimsparser"
+name = "nomad-parser-fhiaims"
 description = "Parser for FHI-Aims outputs"
 version = "0.1.0"
 readme = "README.md"
@@ -31,7 +31,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/ladinesa/fhiaimsparser"
+Repository = "https://github.com/ladinesa/nomad-parser-fhiaims"
 
 [project.optional-dependencies]
 dev = ["ruff", "pytest", "structlog"]
@@ -111,9 +111,9 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [project.entry-points.'nomad.plugin']
-parser_entry_point = "fhiaimsparser.parsers:parser_entry_point"
-schema_package_entry_point = "fhiaimsparser.schema_packages:schema_package_entry_point"
-normalizer_entry_point = "fhiaimsparser.normalizers:normalizer_entry_point"
+parser_entry_point = "nomad_parser_fhiaims.parsers:parser_entry_point"
+schema_package_entry_point = "nomad_parser_fhiaims.schema_packages:schema_package_entry_point"
+normalizer_entry_point = "nomad_parser_fhiaims.normalizers:normalizer_entry_point"
 
 
 [tool.cruft]
